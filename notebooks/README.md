@@ -14,6 +14,9 @@ change the lesson, then regenerate.
    click **Import**. (Or download the file and import it as a file.)
 4. Attach **Serverless** compute and run the cells from top to bottom.
 
+The Data Analyst labs (SQL warehouses to Genie) also have steps in the SQL editor, dashboards
+and Genie. Those steps are written as text cells; follow them in the Databricks interface.
+
 ## Run in Google Colab
 
 Notebooks in [`colab/`](colab) open with one click from the lesson page
@@ -41,5 +44,11 @@ They cover plain Python and open-source Spark only; the PySpark notebook install
 | Errors and validation | [py-errors-validation](databricks/py-errors-validation.ipynb) | [colab](colab/py-errors-validation.ipynb) |
 | Python in Databricks notebooks | [py-databricks-notebooks](databricks/py-databricks-notebooks.ipynb) | |
 | Your first DataFrame (PySpark) | [pyspark-first-dataframe](databricks/pyspark-first-dataframe.ipynb) | [colab](colab/pyspark-first-dataframe.ipynb) |
+| Databricks SQL and SQL warehouses | [dbsql-warehouses](databricks/dbsql-warehouses.ipynb) | |
+| Analyzing queries: query history, query profile and caching | [query-performance](databricks/query-performance.ipynb) | |
+| Getting data in: uploads, volumes, read_files and COPY INTO | [analyst-data-import](databricks/analyst-data-import.ipynb) | |
+| Modeling for analytics: star schemas, views and metric views | [analytics-modeling](databricks/analytics-modeling.ipynb) | |
+| AI/BI dashboards, sharing and alerts | [aibi-dashboards](databricks/aibi-dashboards.ipynb) | |
+| Genie: One, Agents, Ontology and Code | [genie](databricks/genie.ipynb) | |
 
 Independent study resource. Not affiliated with or endorsed by Databricks.
