@@ -51,4 +51,21 @@ They cover plain Python and open-source Spark only; the PySpark notebook install
 | AI/BI dashboards, sharing and alerts | [aibi-dashboards](databricks/aibi-dashboards.ipynb) | |
 | Genie: One, Agents, Ontology and Code | [genie](databricks/genie.ipynb) | |
 
+## Certification labs: Data Engineer Associate
+
+One hands-on notebook per exam domain of the Databricks Certified Data Engineer Associate exam. They run in
+Databricks Free Edition on serverless compute and create everything in the `workspace.dea_lab` schema. Each part
+asks you to predict the result first; the expected results are at the end of each notebook. Labs 4 and 5 create a
+job and a bundle in your workspace and include clean-up steps; part of Lab 5 runs the Databricks CLI on your laptop.
+
+| Exam domain | What you practise | Notebook |
+| --- | --- | --- |
+| Databricks Intelligence Platform | Delta Lake and compute: history, time travel, RESTORE, schema enforcement | [01-platform](certifications/data-engineer-associate/01-platform.ipynb) |
+| Data Ingestion and Loading | Auto Loader, schema evolution, rescued data, COPY INTO and nested JSON | [02-ingestion](certifications/data-engineer-associate/02-ingestion.ipynb) |
+| Data Transformation and Modeling | Bronze to silver to gold, MERGE, DELETE, views, materialized views and a declarative pipeline | [03-transform](certifications/data-engineer-associate/03-transform.ipynb) |
+| Working with Lakeflow Jobs | A three-task job: Run if, retries, repair runs and a Quartz schedule | [04-jobs](certifications/data-engineer-associate/04-jobs.ipynb) |
+| Implementing CI/CD | Git folders, a bundle with dev and prod targets, and the Databricks CLI | [05-cicd](certifications/data-engineer-associate/05-cicd.ipynb) |
+| Troubleshooting, Monitoring, and Optimization | Skew and salting, broadcast joins, OPTIMIZE, liquid clustering and job history | [06-troubleshoot](certifications/data-engineer-associate/06-troubleshoot.ipynb) |
+| Governance and Security | Privileges, row filters, column masks, ownership and lineage in Unity Catalog | [07-governance](certifications/data-engineer-associate/07-governance.ipynb) |
+
 Independent study resource. Not affiliated with or endorsed by Databricks.
